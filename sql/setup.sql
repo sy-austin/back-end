@@ -2,5 +2,6 @@ DROP TABLE IF EXISTS terms;
 CREATE TABLE terms (
   id BIGINT GENERATED ALWAYS AS IDENTITY,
   term TEXT NOT NULL,
-  definition TEXT NOT NULL
+  definition TEXT NOT NULL,
+  example TEXT NOT NULL
 );
